@@ -2,7 +2,7 @@
 This is our implementation of the paper Differentiable Surface Triangulation that enables optimization for any per-vertex or per-face differentiable objective function over the space of underlying surface triangulations.
 
 
-![diff-surface-triangulation](img/teaser.png "Differentiable Surface Triangulation")
+![diff-surface-triangulation](img/diff_surface_triangulation.png "Differentiable Surface Triangulation")
 
 
 This code was written by [Marie-Julie Rakotosaona](http://www.lix.polytechnique.fr/Labo/Marie-Julie.RAKOTOSAONA/).
