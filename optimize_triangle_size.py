@@ -210,7 +210,7 @@ def optimize(session, ops, boundary, original_mesh, save_path):
                 np.save(os.path.join(save_path, 'target_curvature_{}.npy'.format(mesh_number)),target_curvature)
                 mesh2D.export(os.path.join(save_path,'opt_mesh2D_{}.ply'.format(mesh_number)))
 
-                mesh.export(os.path.join(save_path,'opt_mesh{}.ply'.format(mesh_number)))
+                mesh.export(os.path.join(save_path,'opt_mesh_{}.ply'.format(mesh_number)))
 
                 np.save(os.path.join(save_path, 'points2D_{}.npy'.format(mesh_number)),points_2D)
                 np.save(os.path.join(save_path, 'points3D_{}.npy'.format(mesh_number)),mesh_points)

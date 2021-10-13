@@ -1,0 +1,91 @@
+site_name: Geometry Central
+
+markdown_extensions:
+  - codehilite
+  - admonition
+  - attr_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.smarty
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.arithmatex
+  - pymdownx.emoji
+
+extra:
+  search:
+    tokenizer: '[\s\-\.::]+'
+
+theme:
+  name: 'material'
+  palette:
+    primary: 'deep orange'
+    accent: 'red'
+  font:
+    text: 'Merriweather'
+    code: 'Inconsolata'
+  icon: 
+    logo: material/home
+
+extra_css:
+  - extras.css
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+
+google_analytics: ['UA-58346315-3', 'auto']
+
+repo_name: 'nmwsharp/geometry-central'
+repo_url: 'https://github.com/nmwsharp/geometry-central'
+
+nav:
+  - Home: 'index.md'
+  - Build: 
+    - 'Versions' : 'build/versions.md'
+    - 'Building' : 'build/building.md'
+    - 'Dependencies' : 'build/dependencies.md'
+    - 'Tests' : 'build/tests.md'
+  - Tutorials: 
+    - 'Load & navigate a mesh' : 'tutorials/load_mesh.md'
+    #- 'Mesh containers' : 'tutorials/mesh_containers.md'
+    - 'Basic Mutation' : 'tutorials/basic_mutation.md'
+    #- 'Nonmanifold meshes' : 'tutorials/nonmanifold_meshes.md'
+    #- 'Geometry hierarchy' : 'tutorials/geometry_hierarchy.md'
+    #- 'Mesh mutations' : 'tutorials/mesh_mutations.md'
+    #- 'Linear algebra' : 'tutorials/linear_algebra.md'
+    - 'Direction fields' : 'tutorials/direction_fields.md'
+    #- 'Intrinsic triangulations' : 'tutorials/intrinsic_triangulations.md'
+  - Surface:
+    - Surface Mesh: 
+      - 'Basics' : 'surface/surface_mesh/basics.md'
+      - 'Elements' : 'surface/surface_mesh/elements.md'
+      - 'Boundaries' : 'surface/surface_mesh/boundaries.md'
+      - 'Navigation and Iteration' : 'surface/surface_mesh/navigation.md'
+      - 'Containers' : 'surface/surface_mesh/containers.md'
+      - 'Mutation' : 'surface/surface_mesh/mutation.md'
+      - 'Delta Complexes' : 'surface/surface_mesh/delta_complex.md'
+      - 'Internals' : 'surface/surface_mesh/internals.md'
+    - Geometry: 
+      - 'Overview' : 'surface/geometry/geometry.md'
+      - 'Quantities' : 'surface/geometry/quantities.md'
+    - Utilities: 
+      - 'Simple Polygon Mesh' : 'surface/utilities/simple_polygon_mesh.md'
+      - 'I/O' : 'surface/utilities/io.md'
+      - 'Surface Point' : 'surface/utilities/surface_point.md'
+    - Algorithms: 
+      - 'Direction Fields' : 'surface/algorithms/direction_fields.md'
+      - 'Geodesic Distance' : 'surface/algorithms/geodesic_distance.md'
+      - 'Vector Heat Method' : 'surface/algorithms/vector_heat_method.md'
+      - 'Surface Centers' : 'surface/algorithms/surface_centers.md'
+      - 'Mesh Graph Algorithms' : 'surface/algorithms/mesh_graph_algorithms.md'
+      - 'Robust Geometry' : 'surface/algorithms/robust_geometry.md'
+      - 'Flip Geodesics' : 'surface/algorithms/flip_geodesics.md'
+  - Numerical: 
+    - 'Matrix Types' : 'numerical/matrix_types.md'
+    - 'Linear Algebra Utilities' : 'numerical/linear_algebra_utilities.md'
+    - 'Linear Solvers' : 'numerical/linear_solvers.md'
+  - Utilities: 
+    - 'Miscellaneous' : 'utilities/miscellaneous.md'
+    - 'Vector2' : 'utilities/vector2.md'
+    - 'Vector3' : 'utilities/vector3.md'
+    - 'Utilities for Eigen Interoperability' : 'utilities/eigenmap.md'
