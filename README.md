@@ -23,7 +23,7 @@ pip install trimesh
 
 Clone this repository:
 ``` bash
-git clone https://github.com/mrakotosaon/diff-meshing.git
+git clone https://github.com/mrakotosaon/diff-surface-triangulation.git
 cd dse-meshing
 ```
 
